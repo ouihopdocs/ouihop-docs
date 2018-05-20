@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SurroundingTripsInteractor Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/SurroundingTripsInteractor" class="dashAnchor"></a>
+    <a title="SurroundingTripsInteractor Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">OuiHopSDK Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">OuiHopSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        SurroundingTripsInteractor Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BaseModel.html">BaseModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DriverTripInteractor.html">DriverTripInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DriverTripRequestsInteractor.html">DriverTripRequestsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRPedestrianDestination.html">FIRPedestrianDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRTrip.html">FIRTrip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRTripRequest.html">FIRTripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRUser.html">FIRUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)GoogleNumberWithText">GoogleNumberWithText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationInteractor.html">LocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OUIAddress.html">OUIAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OuiHopSDKConfiguration.html">OuiHopSDKConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PartnerLocationInteractor.html">PartnerLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianDestinationInteractor.html">PedestrianDestinationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianDestinationRequestInteractor.html">PedestrianDestinationRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianTripRequestInteractor.html">PedestrianTripRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)SendLocationInteractor">SendLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurroundingTripsInteractor.html">SurroundingTripsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurroundingUsersInteractor.html">SurroundingUsersInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TripRequest.html">TripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserCar.html">UserCar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserInteractor.html">UserInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WaypointWrapper.html">WaypointWrapper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@OuiHopSDKVersionNumber">OuiHopSDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@OuiHopSDKVersionString">OuiHopSDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateAccepted">kTripRequestStateAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateArrived">kTripRequestStateArrived</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateBoarded">kTripRequestStateBoarded</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateCanceled">kTripRequestStateCanceled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateCanceledAfterAccepted">kTripRequestStateCanceledAfterAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateDisputed">kTripRequestStateDisputed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateExpired">kTripRequestStateExpired</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateRejected">kTripRequestStateRejected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateRequested">kTripRequestStateRequested</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TripFinishReason.html">TripFinishReason</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DriverTripInteractorObserver.html">DriverTripInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DriverTripRequestsInteractorObserver.html">DriverTripRequestsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/JSONOuiHopAPISerializable.html">JSONOuiHopAPISerializable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LocationInteractorObserver.html">LocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PartnerLocationInteractorObserver.html">PartnerLocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianDestinationInteractorObserver.html">PedestrianDestinationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianDestinationRequestInteractorObserver.html">PedestrianDestinationRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianTripRequestInteractorObserver.html">PedestrianTripRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurroundingTripsInteractorObserver.html">SurroundingTripsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurroundingUsersInteractorObserver.html">SurroundingUsersInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserInteractorObserver.html">UserInteractorObserver</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SurroundingTripsInteractor</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">SurroundingTripsInteractor</span>
+    <span class="p">:</span> <span class="nc">NSObject</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/SurroundingUsersInteractorObserver.html">SurroundingUsersInteractorObserver</a></span><span class="p">,</span> <span class="n"><a href="../Protocols/LocationInteractorObserver.html">LocationInteractorObserver</a></span><span class="p">,</span>
+                <span class="n"><a href="../Protocols/PedestrianDestinationInteractorObserver.html">PedestrianDestinationInteractorObserver</a></span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>An interactor responsible for retrieving surrounding trips that match needed criteria, depending on current state.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This interactor makes use of two SurroundingUsersInteractor&rsquo;s. One that should already exist in the SDK with a short interval time and a quite narrow Geohash filter. Another internal SurroundingUsersInteractor instance is created with a long interval time, but a wider Geohash filter. Both interactors are used to update drivers&rsquo; locations for surrounding trips.
+
+</div>
+
+<p>Also a PedestrianDestinationInteractor is being used to determine trips filtration using current pedestrian destination if exists.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SurroundingTripsInteractor(py)allTrips"></a>
+                    <a name="//apple_ref/objc/Property/allTrips" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SurroundingTripsInteractor(py)allTrips">allTrips</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An array of all trips in the current city. This is used later for filtration.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">NSMutableArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/FIRTrip.html">FIRTrip</a></span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">allTrips</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SurroundingTripsInteractor(py)surroundingTrips"></a>
+                    <a name="//apple_ref/objc/Property/surroundingTrips" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SurroundingTripsInteractor(py)surroundingTrips">surroundingTrips</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An array of filtered trips depending on location and other business filters (ex: Pedestrian Destination)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span>
+    <span class="n">NSMutableArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/FIRTrip.html">FIRTrip</a></span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">surroundingTrips</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SurroundingTripsInteractor(im)initWithSurroundingUsersInteractor:pedestrianDestinationInteractor:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithSurroundingUsersInteractor:pedestrianDestinationInteractor:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SurroundingTripsInteractor(im)initWithSurroundingUsersInteractor:pedestrianDestinationInteractor:">-initWithSurroundingUsersInteractor:pedestrianDestinationInteractor:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An initialization method that is responsible for configuring surrounding trips interactor.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithSurroundingUsersInteractor</span><span class="p">:</span>
+                    <span class="p">(</span><span class="n"><a href="../Classes/SurroundingUsersInteractor.html">SurroundingUsersInteractor</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">surroundingUsersInteractor</span>
+                   <span class="nf">pedestrianDestinationInteractor</span><span class="p">:</span>
+                       <span class="p">(</span><span class="n"><a href="../Classes/PedestrianDestinationInteractor.html">PedestrianDestinationInteractor</a></span> <span class="o">*</span><span class="p">)</span>
+                           <span class="n">pedestrianDestinationInteractor</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>surroundingUsersInteractor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A surrounding users interactor that is used internally to detect users&rsquo; location changes</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pedestrianDestinationInteractor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A pedestrian destination interactor that is used internally to properly filter trips according to pedestrian destination state.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An initialized instance type of surrounding trips interactor.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SurroundingTripsInteractor(im)startListeningToTrips:"></a>
+                    <a name="//apple_ref/objc/Method/-startListeningToTrips:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SurroundingTripsInteractor(im)startListeningToTrips:">-startListeningToTrips:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an observer to the list of interactor observers. If this is the first observer, interactor starts listening for surrounding trips in real-time manner. If an observer is already attached to the interactor, only the new observer is attached.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">startListeningToTrips</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">NSObject</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SurroundingTripsInteractorObserver.html">SurroundingTripsInteractorObserver</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">observer</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>observer</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An observer to be attached, that implements needed protocol. If this observer already exists, nothing happens.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SurroundingTripsInteractor(im)stopListeningToTrips:"></a>
+                    <a name="//apple_ref/objc/Method/-stopListeningToTrips:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SurroundingTripsInteractor(im)stopListeningToTrips:">-stopListeningToTrips:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Detaches an observer from the list of interactor observers. If this is the last observer, interactor stops listening for surrounding trips real-time updates. If other observers are still attached to the interactor, the new observer is only attached.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">stopListeningToTrips</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">NSObject</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SurroundingTripsInteractorObserver.html">SurroundingTripsInteractorObserver</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">observer</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>observer</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An observer to be detached. If this observer doesn&rsquo;t exist, nothing happens.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.ouihop.com" target="_blank" rel="external">OuiHop</a>. All rights reserved. (Last updated: 2018-04-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

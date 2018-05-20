@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/User" class="dashAnchor"></a>
+    <a title="User Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">OuiHopSDK Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">OuiHopSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        User Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BaseModel.html">BaseModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DriverTripInteractor.html">DriverTripInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DriverTripRequestsInteractor.html">DriverTripRequestsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRPedestrianDestination.html">FIRPedestrianDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRTrip.html">FIRTrip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRTripRequest.html">FIRTripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRUser.html">FIRUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)GoogleNumberWithText">GoogleNumberWithText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationInteractor.html">LocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OUIAddress.html">OUIAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OuiHopSDKConfiguration.html">OuiHopSDKConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PartnerLocationInteractor.html">PartnerLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianDestinationInteractor.html">PedestrianDestinationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianDestinationRequestInteractor.html">PedestrianDestinationRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianTripRequestInteractor.html">PedestrianTripRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)SendLocationInteractor">SendLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurroundingTripsInteractor.html">SurroundingTripsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurroundingUsersInteractor.html">SurroundingUsersInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TripRequest.html">TripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserCar.html">UserCar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserInteractor.html">UserInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WaypointWrapper.html">WaypointWrapper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@OuiHopSDKVersionNumber">OuiHopSDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@OuiHopSDKVersionString">OuiHopSDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateAccepted">kTripRequestStateAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateArrived">kTripRequestStateArrived</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateBoarded">kTripRequestStateBoarded</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateCanceled">kTripRequestStateCanceled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateCanceledAfterAccepted">kTripRequestStateCanceledAfterAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateDisputed">kTripRequestStateDisputed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateExpired">kTripRequestStateExpired</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateRejected">kTripRequestStateRejected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateRequested">kTripRequestStateRequested</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TripFinishReason.html">TripFinishReason</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DriverTripInteractorObserver.html">DriverTripInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DriverTripRequestsInteractorObserver.html">DriverTripRequestsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/JSONOuiHopAPISerializable.html">JSONOuiHopAPISerializable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LocationInteractorObserver.html">LocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PartnerLocationInteractorObserver.html">PartnerLocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianDestinationInteractorObserver.html">PedestrianDestinationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianDestinationRequestInteractorObserver.html">PedestrianDestinationRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianTripRequestInteractorObserver.html">PedestrianTripRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurroundingTripsInteractorObserver.html">SurroundingTripsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurroundingUsersInteractorObserver.html">SurroundingUsersInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserInteractorObserver.html">UserInteractorObserver</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>User</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">User</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>An object representing registered users. This could either be a OuiHop or third party user.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Signup%20fields"></a>
+                <a name="//apple_ref/objc/Section/Signup fields" class="dashAnchor"></a>
+                <a href="#/Signup%20fields">
+                  <h3 class="section-name">Signup fields</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)email"></a>
+                    <a name="//apple_ref/objc/Property/email" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)email">email</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Email address. This field is used as a unique identifier for OuiHop users.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">email</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)firstName"></a>
+                    <a name="//apple_ref/objc/Property/firstName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)firstName">firstName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>First name field.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">firstName</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)lastName"></a>
+                    <a name="//apple_ref/objc/Property/lastName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)lastName">lastName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Last name field.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">lastName</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)password"></a>
+                    <a name="//apple_ref/objc/Property/password" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)password">password</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Password field. This shoud exceed 4 characters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">password</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)mobileNo"></a>
+                    <a name="//apple_ref/objc/Property/mobileNo" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)mobileNo">mobileNo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Mobile number. This field is used as a unique identifier for third party users.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">mobileNo</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)gender"></a>
+                    <a name="//apple_ref/objc/Property/gender" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)gender">gender</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gender string. This could be either MALE or FEMALE values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">gender</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)birthDate"></a>
+                    <a name="//apple_ref/objc/Property/birthDate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)birthDate">birthDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A string representing date of birth in the format yyyy-MM-dd.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">birthDate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)country"></a>
+                    <a name="//apple_ref/objc/Property/country" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)country">country</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A string representing user country. It could be either FR, CA, or a nil value representing other countries.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">country</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)mode"></a>
+                    <a name="//apple_ref/objc/Property/mode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)mode">mode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A string representing user mode. This could be either DRIVER or PEDESTRIAN.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">mode</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)sponsorCode"></a>
+                    <a name="//apple_ref/objc/Property/sponsorCode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)sponsorCode">sponsorCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sponsor code field.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">sponsorCode</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)accountType"></a>
+                    <a name="//apple_ref/objc/Property/accountType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)accountType">accountType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A string returned from server identifying account type. This could be: LOCAL, EXTRANAL, or THIRD_PARTY. LOCAL represents OuiHop users, EXTRANAL represents Facebook users, THIRD_PARTY represents third party users (users with quite limited features).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">accountType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)newsLetterNumber"></a>
+                    <a name="//apple_ref/objc/Property/newsLetterNumber" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)newsLetterNumber">newsLetterNumber</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An NSNumber holding a boolean represents if a user registered to receive news letters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">newsLetterNumber</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)externalId"></a>
+                    <a name="//apple_ref/objc/Property/externalId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)externalId">externalId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This field is used as a unique identifier for Facebook users.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">externalId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)accessToken"></a>
+                    <a name="//apple_ref/objc/Property/accessToken" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)accessToken">accessToken</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Facebook access token.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">accessToken</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)carMake"></a>
+                    <a name="//apple_ref/objc/Property/carMake" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)carMake">carMake</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that represents car brand (ex: Peugoet). This value is for internal server communication. It&rsquo;s better to use &lsquo;userCar&rsquo; property instead to read/write this value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">carMake</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)carModel"></a>
+                    <a name="//apple_ref/objc/Property/carModel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)carModel">carModel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that represents car model (ex: 3008). This value is for internal server communication. It&rsquo;s better to use &lsquo;userCar&rsquo; property instead to read/write this value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">carModel</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)carColor"></a>
+                    <a name="//apple_ref/objc/Property/carColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)carColor">carColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that represents car color in hex decimal format (FFFFFF). This value is for internal server communication. It&rsquo;s better to use &lsquo;userCar&rsquo; property instead to read/write this value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">carColor</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)carPlateNumber"></a>
+                    <a name="//apple_ref/objc/Property/carPlateNumber" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)carPlateNumber">carPlateNumber</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that represents car plate number. This value is for internal server communication. It&rsquo;s better to use &lsquo;userCar&rsquo; property instead to read/write this value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">carPlateNumber</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)numberOfSeats"></a>
+                    <a name="//apple_ref/objc/Property/numberOfSeats" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)numberOfSeats">numberOfSeats</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that represents number of car seats. This value is for internal server communication. It&rsquo;s better to use &lsquo;userCar&rsquo; property instead to read/write this value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">numberOfSeats</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)businessCar"></a>
+                    <a name="//apple_ref/objc/Property/businessCar" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)businessCar">businessCar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A boolean field enclosed in an NSNumber that represents if this is a business car. This value is for internal server communication. It&rsquo;s better to use &lsquo;userCar&rsquo; property instead to read/write this value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">businessCar</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)carEngineType"></a>
+                    <a name="//apple_ref/objc/Property/carEngineType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)carEngineType">carEngineType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that represents car engine type (ex: <q>electric</q>). This value is for internal server communication. It&rsquo;s better to use &lsquo;userCar&rsquo; property instead to read/write this value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">carEngineType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)carFiscalPower"></a>
+                    <a name="//apple_ref/objc/Property/carFiscalPower" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)carFiscalPower">carFiscalPower</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that represents car fiscal power in France. This value is for internal server communication. It&rsquo;s better to use &lsquo;userCar&rsquo; property instead to read/write this value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">carFiscalPower</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Server%20returned%20fields"></a>
+                <a name="//apple_ref/objc/Section/Server returned fields" class="dashAnchor"></a>
+                <a href="#/Server%20returned%20fields">
+                  <h3 class="section-name">Server returned fields</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)userId"></a>
+                    <a name="//apple_ref/objc/Property/userId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)userId">userId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A number representing user Id.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">userId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)createdOn"></a>
+                    <a name="//apple_ref/objc/Property/createdOn" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)createdOn">createdOn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creation date as per server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSDate</span> <span class="o">*</span><span class="n">createdOn</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)lastUpdatedOn"></a>
+                    <a name="//apple_ref/objc/Property/lastUpdatedOn" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)lastUpdatedOn">lastUpdatedOn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Update date as per server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSDate</span> <span class="o">*</span><span class="n">lastUpdatedOn</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)hopizCriedit"></a>
+                    <a name="//apple_ref/objc/Property/hopizCriedit" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)hopizCriedit">hopizCriedit</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hopiz (a virtual currency used by OuiHop users).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSInteger</span> <span class="n">hopizCriedit</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)photoChecksum"></a>
+                    <a name="//apple_ref/objc/Property/photoChecksum" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)photoChecksum">photoChecksum</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A string representing photo checksum.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">photoChecksum</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)langCode"></a>
+                    <a name="//apple_ref/objc/Property/langCode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)langCode">langCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Language code: FR or EN</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">langCode</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)currentTripID"></a>
+                    <a name="//apple_ref/objc/Property/currentTripID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)currentTripID">currentTripID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that holds current trip created by user. This value is used after login to recover an already-created trip.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">currentTripID</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)currentPedestrianJoinRequestIds"></a>
+                    <a name="//apple_ref/objc/Property/currentPedestrianJoinRequestIds" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)currentPedestrianJoinRequestIds">currentPedestrianJoinRequestIds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that holds current trip join requests received for the currently-created trip. This value is used after login to recover lost requests for current trip.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSArray</span> <span class="o">*</span><span class="n">currentPedestrianJoinRequestIds</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)pedestrianDestinationId"></a>
+                    <a name="//apple_ref/objc/Property/pedestrianDestinationId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)pedestrianDestinationId">pedestrianDestinationId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A field that holds current pedestrian destination Id created by user. This value is used after login to recover an already-created pedestrian destination.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">pedestrianDestinationId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)userGroup"></a>
+                    <a name="//apple_ref/objc/Property/userGroup" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)userGroup">userGroup</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A group object used to link a user to a group.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">UserGroup</span> <span class="o">*</span><span class="n">userGroup</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)userLine"></a>
+                    <a name="//apple_ref/objc/Property/userLine" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)userLine">userLine</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Users lines are used for community networks (a feature currently isn&rsquo;t supported by SDK).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">UserLine</span> <span class="o">*</span><span class="n">userLine</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)userCar"></a>
+                    <a name="//apple_ref/objc/Property/userCar" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)userCar">userCar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An object representing driver car. It holds different car fields.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Classes/UserCar.html">UserCar</a></span> <span class="o">*</span><span class="n">userCar</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)lastLocation"></a>
+                    <a name="//apple_ref/objc/Property/lastLocation" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)lastLocation">lastLocation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Location object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">UserLocation</span> <span class="o">*</span><span class="n">lastLocation</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)favorites"></a>
+                    <a name="//apple_ref/objc/Property/favorites" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)favorites">favorites</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Favorites (a feature currently isn&rsquo;t supported by SDK).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">UserAddress</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">favorites</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)hwLines"></a>
+                    <a name="//apple_ref/objc/Property/hwLines" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)hwLines">hwLines</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Home to work lines (a feature currently isn&rsquo;t supported by SDK).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">UserLine</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">hwLines</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)whLines"></a>
+                    <a name="//apple_ref/objc/Property/whLines" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)whLines">whLines</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Work to home lines (a feature currently isn&rsquo;t supported by SDK).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">UserLine</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">whLines</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)facebookPictureURL"></a>
+                    <a name="//apple_ref/objc/Property/facebookPictureURL" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)facebookPictureURL">facebookPictureURL</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Facebook picture URL</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">facebookPictureURL</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)authToken"></a>
+                    <a name="//apple_ref/objc/Property/authToken" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)authToken">authToken</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Token used to authenticate user at server side.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">authToken</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)averageRank"></a>
+                    <a name="//apple_ref/objc/Property/averageRank" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)averageRank">averageRank</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Average rank for user. Rank is calculated as the average of previous reviews by other users.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">averageRank</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)numberOfReviews"></a>
+                    <a name="//apple_ref/objc/Property/numberOfReviews" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)numberOfReviews">numberOfReviews</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of previous reviews for that user.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">numberOfReviews</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)numberOfLotteryTickets"></a>
+                    <a name="//apple_ref/objc/Property/numberOfLotteryTickets" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)numberOfLotteryTickets">numberOfLotteryTickets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of lottery tickets (a feature currently isn&rsquo;t supported by SDK).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="kt">int</span> <span class="n">numberOfLotteryTickets</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Local%20fields%20and%20readonly%20properties"></a>
+                <a name="//apple_ref/objc/Section/Local fields and readonly properties" class="dashAnchor"></a>
+                <a href="#/Local%20fields%20and%20readonly%20properties">
+                  <h3 class="section-name">Local fields and readonly properties</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)newsLetter"></a>
+                    <a name="//apple_ref/objc/Property/newsLetter" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)newsLetter">newsLetter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A readonly property specifyies if a user has subscribed to receive news letters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">newsLetter</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)User(py)photoLocal"></a>
+                    <a name="//apple_ref/objc/Property/photoLocal" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)User(py)photoLocal">photoLocal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Local UIImage representation of user photo.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">UIImage</span> <span class="o">*</span><span class="n">photoLocal</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.ouihop.com" target="_blank" rel="external">OuiHop</a>. All rights reserved. (Last updated: 2018-04-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FIRTripRequest Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/FIRTripRequest" class="dashAnchor"></a>
+    <a title="FIRTripRequest Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">OuiHopSDK Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">OuiHopSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        FIRTripRequest Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BaseModel.html">BaseModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DriverTripInteractor.html">DriverTripInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DriverTripRequestsInteractor.html">DriverTripRequestsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRPedestrianDestination.html">FIRPedestrianDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRTrip.html">FIRTrip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRTripRequest.html">FIRTripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRUser.html">FIRUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)GoogleNumberWithText">GoogleNumberWithText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationInteractor.html">LocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OUIAddress.html">OUIAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OuiHopSDKConfiguration.html">OuiHopSDKConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PartnerLocationInteractor.html">PartnerLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianDestinationInteractor.html">PedestrianDestinationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianDestinationRequestInteractor.html">PedestrianDestinationRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianTripRequestInteractor.html">PedestrianTripRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)SendLocationInteractor">SendLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurroundingTripsInteractor.html">SurroundingTripsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurroundingUsersInteractor.html">SurroundingUsersInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TripRequest.html">TripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserCar.html">UserCar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserInteractor.html">UserInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WaypointWrapper.html">WaypointWrapper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@OuiHopSDKVersionNumber">OuiHopSDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@OuiHopSDKVersionString">OuiHopSDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateAccepted">kTripRequestStateAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateArrived">kTripRequestStateArrived</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateBoarded">kTripRequestStateBoarded</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateCanceled">kTripRequestStateCanceled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateCanceledAfterAccepted">kTripRequestStateCanceledAfterAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateDisputed">kTripRequestStateDisputed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateExpired">kTripRequestStateExpired</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateRejected">kTripRequestStateRejected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateRequested">kTripRequestStateRequested</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TripFinishReason.html">TripFinishReason</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DriverTripInteractorObserver.html">DriverTripInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DriverTripRequestsInteractorObserver.html">DriverTripRequestsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/JSONOuiHopAPISerializable.html">JSONOuiHopAPISerializable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LocationInteractorObserver.html">LocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PartnerLocationInteractorObserver.html">PartnerLocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianDestinationInteractorObserver.html">PedestrianDestinationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianDestinationRequestInteractorObserver.html">PedestrianDestinationRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianTripRequestInteractorObserver.html">PedestrianTripRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurroundingTripsInteractorObserver.html">SurroundingTripsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurroundingUsersInteractorObserver.html">SurroundingUsersInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserInteractorObserver.html">UserInteractorObserver</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>FIRTripRequest</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">FIRTripRequest</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>A class representing a request from a pedestrian to join a driver&rsquo;s trip.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)requestId"></a>
+                    <a name="//apple_ref/objc/Property/requestId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)requestId">requestId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Trip request Id in the backend database.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">requestId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)createdOn"></a>
+                    <a name="//apple_ref/objc/Property/createdOn" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)createdOn">createdOn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Date the trip request was created.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">NSDate</span> <span class="o">*</span><span class="n">createdOn</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)lastUpdatedOn"></a>
+                    <a name="//apple_ref/objc/Property/lastUpdatedOn" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)lastUpdatedOn">lastUpdatedOn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Date the trip request was last updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">NSDate</span> <span class="o">*</span><span class="n">lastUpdatedOn</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)status"></a>
+                    <a name="//apple_ref/objc/Property/status" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)status">status</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Status of a trip request. Expected values are: REQUESTED, ACCEPTED, REJECTED, CANCELED, CANCELED_AFTER_ACCEPTED, BOARDED, ARRIVED</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">status</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)pedestrianId"></a>
+                    <a name="//apple_ref/objc/Property/pedestrianId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)pedestrianId">pedestrianId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Id of the pedestrian who created this request</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">pedestrianId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)tripId"></a>
+                    <a name="//apple_ref/objc/Property/tripId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)tripId">tripId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Id of the trip being request</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">tripId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)driverId"></a>
+                    <a name="//apple_ref/objc/Property/driverId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)driverId">driverId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Id of the trip driver</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="n">driverId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)pickupCoordinate"></a>
+                    <a name="//apple_ref/objc/Property/pickupCoordinate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)pickupCoordinate">pickupCoordinate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A geo-coordinate point specifying where the driver should pick the pedestrian</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="kt">int</span> <span class="n">pickupCoordinate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Local%20variables"></a>
+                <a name="//apple_ref/objc/Section/Local variables" class="dashAnchor"></a>
+                <a href="#/Local%20variables">
+                  <h3 class="section-name">Local variables</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)boardingLocation"></a>
+                    <a name="//apple_ref/objc/Property/boardingLocation" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)boardingLocation">boardingLocation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A geo-coordinate location specifying where the driver effectively picked the pedestrian. This location will be nil until request is changed to BOARDED.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">)</span> <span class="n">CLLocation</span><span class="o">*</span> <span class="n">boardingLocation</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)dropOffLocation"></a>
+                    <a name="//apple_ref/objc/Property/dropOffLocation" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)dropOffLocation">dropOffLocation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A geo-coordinate location specifying where the driver dropped off the pedestrian. This location will be nil until request is changed to ARRIVED.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">)</span> <span class="n">CLLocation</span><span class="o">*</span> <span class="n">dropOffLocation</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)rideSharingDuration"></a>
+                    <a name="//apple_ref/objc/Property/rideSharingDuration" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)rideSharingDuration">rideSharingDuration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Duration of the ride sharing in minutes. This is the period between boarding and drop off. Before boarding, this duration is always zero.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="kt">int</span> <span class="n">rideSharingDuration</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(py)rideSharingDistance"></a>
+                    <a name="//apple_ref/objc/Property/rideSharingDistance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(py)rideSharingDistance">rideSharingDistance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Distance of the ride sharing in kilometers. This is the distance driven between boarding and drop off. Before boarding, this distance is always zero.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">atomic</span><span class="p">)</span> <span class="kt">float</span> <span class="n">rideSharingDistance</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)FIRTripRequest(im)updateRequestUsingTripRequest:"></a>
+                    <a name="//apple_ref/objc/Method/-updateRequestUsingTripRequest:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)FIRTripRequest(im)updateRequestUsingTripRequest:">-updateRequestUsingTripRequest:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Updates a trip request with a more recent trip request object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">updateRequestUsingTripRequest</span><span class="p">:(</span><span class="n">FIRTripRequest</span> <span class="o">*</span><span class="p">)</span><span class="nv">request</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A recently received trip request object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.ouihop.com" target="_blank" rel="external">OuiHop</a>. All rights reserved. (Last updated: 2018-04-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

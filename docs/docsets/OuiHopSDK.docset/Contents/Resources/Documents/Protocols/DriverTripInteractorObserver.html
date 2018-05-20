@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DriverTripInteractorObserver Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Protocol/DriverTripInteractorObserver" class="dashAnchor"></a>
+    <a title="DriverTripInteractorObserver Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">OuiHopSDK Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">OuiHopSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DriverTripInteractorObserver Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BaseModel.html">BaseModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DriverTripInteractor.html">DriverTripInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DriverTripRequestsInteractor.html">DriverTripRequestsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRPedestrianDestination.html">FIRPedestrianDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRTrip.html">FIRTrip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRTripRequest.html">FIRTripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FIRUser.html">FIRUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)GoogleNumberWithText">GoogleNumberWithText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationInteractor.html">LocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OUIAddress.html">OUIAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OuiHopSDKConfiguration.html">OuiHopSDKConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PartnerLocationInteractor.html">PartnerLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianDestinationInteractor.html">PedestrianDestinationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianDestinationRequestInteractor.html">PedestrianDestinationRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PedestrianTripRequestInteractor.html">PedestrianTripRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)SendLocationInteractor">SendLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurroundingTripsInteractor.html">SurroundingTripsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurroundingUsersInteractor.html">SurroundingUsersInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TripRequest.html">TripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserCar.html">UserCar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserInteractor.html">UserInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WaypointWrapper.html">WaypointWrapper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@OuiHopSDKVersionNumber">OuiHopSDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@OuiHopSDKVersionString">OuiHopSDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateAccepted">kTripRequestStateAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateArrived">kTripRequestStateArrived</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateBoarded">kTripRequestStateBoarded</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateCanceled">kTripRequestStateCanceled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateCanceledAfterAccepted">kTripRequestStateCanceledAfterAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateDisputed">kTripRequestStateDisputed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateExpired">kTripRequestStateExpired</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateRejected">kTripRequestStateRejected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:TripRequest.h@kTripRequestStateRequested">kTripRequestStateRequested</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TripFinishReason.html">TripFinishReason</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DriverTripInteractorObserver.html">DriverTripInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DriverTripRequestsInteractorObserver.html">DriverTripRequestsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/JSONOuiHopAPISerializable.html">JSONOuiHopAPISerializable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LocationInteractorObserver.html">LocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PartnerLocationInteractorObserver.html">PartnerLocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianDestinationInteractorObserver.html">PedestrianDestinationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianDestinationRequestInteractorObserver.html">PedestrianDestinationRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PedestrianTripRequestInteractorObserver.html">PedestrianTripRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurroundingTripsInteractorObserver.html">SurroundingTripsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurroundingUsersInteractorObserver.html">SurroundingUsersInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserInteractorObserver.html">UserInteractorObserver</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DriverTripInteractorObserver</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">DriverTripInteractorObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>A protocol to get notified about different trip stages and actions.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Trip%20Actions"></a>
+                <a name="//apple_ref/objc/Section/Trip Actions" class="dashAnchor"></a>
+                <a href="#/Trip%20Actions">
+                  <h3 class="section-name">Trip Actions</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didStartTrip:"></a>
+                    <a name="//apple_ref/objc/Method/-didStartTrip:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didStartTrip:">-didStartTrip:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers that a trip was successfully created.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didStartTrip</span><span class="p">:(</span><span class="n">Trip</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">trip</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>trip</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A trip object returned from server after creation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didFailToStartTripWithError:"></a>
+                    <a name="//apple_ref/objc/Method/-didFailToStartTripWithError:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didFailToStartTripWithError:">-didFailToStartTripWithError:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers that trip creation has failed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didFailToStartTripWithError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Error holding the reason of failure.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didUpdateDistance:forTrip:"></a>
+                    <a name="//apple_ref/objc/Method/-didUpdateDistance:forTrip:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didUpdateDistance:forTrip:">-didUpdateDistance:forTrip:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers about distance difference since last notification. Reported distance isn&rsquo;t cummulative.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didUpdateDistance</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">distance</span> <span class="nf">forTrip</span><span class="p">:(</span><span class="n">Trip</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">trip</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>distance</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Passed distance in meters since last notification.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>trip</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A trip object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didReportToServerKilometers:forTrip:"></a>
+                    <a name="//apple_ref/objc/Method/-didReportToServerKilometers:forTrip:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didReportToServerKilometers:forTrip:">-didReportToServerKilometers:forTrip:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers about distance successfully reported to server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didReportToServerKilometers</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">numberOfKms</span>
+                            <span class="nf">forTrip</span><span class="p">:(</span><span class="n">Trip</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">trip</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>numberOfKms</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Number of reported kilometers reported to server. This number isn&rsquo;t cummulative.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>trip</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A trip object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didUpdateRouteForTrip:"></a>
+                    <a name="//apple_ref/objc/Method/-didUpdateRouteForTrip:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didUpdateRouteForTrip:">-didUpdateRouteForTrip:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers that trip route was recalculated. Reasons could be different like a driver took a different route, or a new waypoint is added to the route.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didUpdateRouteForTrip</span><span class="p">:(</span><span class="n">Trip</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">trip</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>trip</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An updated trip object with new route.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didEndTrip:summary:reason:"></a>
+                    <a name="//apple_ref/objc/Method/-didEndTrip:summary:reason:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didEndTrip:summary:reason:">-didEndTrip:summary:reason:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers when a trip is ended.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didEndTrip</span><span class="p">:(</span><span class="n">Trip</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">trip</span>
+           <span class="nf">summary</span><span class="p">:(</span><span class="n">TripSummary</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">summary</span>
+            <span class="nf">reason</span><span class="p">:(</span><span class="n"><a href="../Enums/TripFinishReason.html">TripFinishReason</a></span><span class="p">)</span><span class="nv">reason</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>trip</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A trip object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>summary</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A summary object returned from server holding trip statistics.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>reason</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An enum stating the reason of ending the trip.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didFailToEndTrip:error:reason:"></a>
+                    <a name="//apple_ref/objc/Method/-didFailToEndTrip:error:reason:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didFailToEndTrip:error:reason:">-didFailToEndTrip:error:reason:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers when a trip failed to end.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didFailToEndTrip</span><span class="p">:(</span><span class="n">Trip</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">trip</span>
+                   <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">error</span>
+                  <span class="nf">reason</span><span class="p">:(</span><span class="n"><a href="../Enums/TripFinishReason.html">TripFinishReason</a></span><span class="p">)</span><span class="nv">reason</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>trip</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A trip object that failed to be ended.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An error object specifying the reason of failure.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>reason</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An enum stating the reason of ending the trip.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Waze%20SDK%20Integration%20Events"></a>
+                <a name="//apple_ref/objc/Section/Waze SDK Integration Events" class="dashAnchor"></a>
+                <a href="#/Waze%20SDK%20Integration%20Events">
+                  <h3 class="section-name">Waze SDK Integration Events</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didConnectToWazeSDK"></a>
+                    <a name="//apple_ref/objc/Method/-didConnectToWazeSDK" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didConnectToWazeSDK">-didConnectToWazeSDK</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers when successfully connected to Waze SDK.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">didConnectToWazeSDK</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didFailToConnectToWazeSDKWithError:"></a>
+                    <a name="//apple_ref/objc/Method/-didFailToConnectToWazeSDKWithError:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didFailToConnectToWazeSDKWithError:">-didFailToConnectToWazeSDKWithError:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers when failing to connect to Waze SDK.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didFailToConnectToWazeSDKWithError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An error object specifying the reason of failure.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didTerminateConnectionToWazeSDK"></a>
+                    <a name="//apple_ref/objc/Method/-didTerminateConnectionToWazeSDK" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didTerminateConnectionToWazeSDK">-didTerminateConnectionToWazeSDK</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers when terminating connection to Waze SDK.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">didTerminateConnectionToWazeSDK</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver(im)didReturnToAppFromWazeApp"></a>
+                    <a name="//apple_ref/objc/Method/-didReturnToAppFromWazeApp" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver(im)didReturnToAppFromWazeApp">-didReturnToAppFromWazeApp</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies observers when Waze application returns back to current app.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">didReturnToAppFromWazeApp</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.ouihop.com" target="_blank" rel="external">OuiHop</a>. All rights reserved. (Last updated: 2018-04-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

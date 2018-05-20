@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Protocols  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Protocols  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">OuiHopSDK Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">OuiHopSDK Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Protocols  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/BaseModel.html">BaseModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DriverTripInteractor.html">DriverTripInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DriverTripRequestsInteractor.html">DriverTripRequestsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/FIRPedestrianDestination.html">FIRPedestrianDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/FIRTrip.html">FIRTrip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/FIRTripRequest.html">FIRTripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/FIRUser.html">FIRUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/c:objc(cs)GoogleNumberWithText">GoogleNumberWithText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LocationInteractor.html">LocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/OUIAddress.html">OUIAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/OuiHopSDKConfiguration.html">OuiHopSDKConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PartnerLocationInteractor.html">PartnerLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PedestrianDestinationInteractor.html">PedestrianDestinationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PedestrianDestinationRequestInteractor.html">PedestrianDestinationRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PedestrianTripRequestInteractor.html">PedestrianTripRequestInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/c:objc(cs)SendLocationInteractor">SendLocationInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/SurroundingTripsInteractor.html">SurroundingTripsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/SurroundingUsersInteractor.html">SurroundingUsersInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/TripRequest.html">TripRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UserCar.html">UserCar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UserInteractor.html">UserInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/WaypointWrapper.html">WaypointWrapper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@OuiHopSDKVersionNumber">OuiHopSDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@OuiHopSDKVersionString">OuiHopSDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:TripRequest.h@kTripRequestStateAccepted">kTripRequestStateAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:TripRequest.h@kTripRequestStateArrived">kTripRequestStateArrived</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:TripRequest.h@kTripRequestStateBoarded">kTripRequestStateBoarded</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:TripRequest.h@kTripRequestStateCanceled">kTripRequestStateCanceled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:TripRequest.h@kTripRequestStateCanceledAfterAccepted">kTripRequestStateCanceledAfterAccepted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:TripRequest.h@kTripRequestStateDisputed">kTripRequestStateDisputed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:TripRequest.h@kTripRequestStateExpired">kTripRequestStateExpired</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:TripRequest.h@kTripRequestStateRejected">kTripRequestStateRejected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:TripRequest.h@kTripRequestStateRequested">kTripRequestStateRequested</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/TripFinishReason.html">TripFinishReason</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/DriverTripInteractorObserver.html">DriverTripInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/DriverTripRequestsInteractorObserver.html">DriverTripRequestsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/JSONOuiHopAPISerializable.html">JSONOuiHopAPISerializable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/LocationInteractorObserver.html">LocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PartnerLocationInteractorObserver.html">PartnerLocationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PedestrianDestinationInteractorObserver.html">PedestrianDestinationInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PedestrianDestinationRequestInteractorObserver.html">PedestrianDestinationRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PedestrianTripRequestInteractorObserver.html">PedestrianTripRequestInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SurroundingTripsInteractorObserver.html">SurroundingTripsInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SurroundingUsersInteractorObserver.html">SurroundingUsersInteractorObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/UserInteractorObserver.html">UserInteractorObserver</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Protocols</h1>
+            <p>The following protocols are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/DriverTripInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripInteractorObserver">DriverTripInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol to get notified about different trip stages and actions.</p>
+
+                        <a href="Protocols/DriverTripInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">DriverTripInteractorObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DriverTripRequestsInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/DriverTripRequestsInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DriverTripRequestsInteractorObserver">DriverTripRequestsInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol to receive notifications from driver trip requests interactor.</p>
+
+                        <a href="Protocols/DriverTripRequestsInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">DriverTripRequestsInteractorObserver</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LocationInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/LocationInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LocationInteractorObserver">LocationInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol that can be implemented by any object that is interested in location change events.</p>
+
+                        <a href="Protocols/LocationInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">LocationInteractorObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PartnerLocationInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/PartnerLocationInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PartnerLocationInteractorObserver">PartnerLocationInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol to notify observers about partner location changes.</p>
+
+                        <a href="Protocols/PartnerLocationInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PartnerLocationInteractorObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PedestrianDestinationInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/PedestrianDestinationInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PedestrianDestinationInteractorObserver">PedestrianDestinationInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol to notify pedestrian destination interactor observers about pedestrian destination status changes.</p>
+
+                        <a href="Protocols/PedestrianDestinationInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PedestrianDestinationInteractorObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PedestrianDestinationRequestInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/PedestrianDestinationRequestInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PedestrianDestinationRequestInteractorObserver">PedestrianDestinationRequestInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol to notify pedestrian destination observers about changing pedestrian destinations.</p>
+
+                        <a href="Protocols/PedestrianDestinationRequestInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PedestrianDestinationRequestInteractorObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PedestrianTripRequestInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/PedestrianTripRequestInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PedestrianTripRequestInteractorObserver">PedestrianTripRequestInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol to notify observers for requests changes</p>
+
+                        <a href="Protocols/PedestrianTripRequestInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PedestrianTripRequestInteractorObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SurroundingTripsInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/SurroundingTripsInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SurroundingTripsInteractorObserver">SurroundingTripsInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol to notify surrounding trips observers about changing trips.</p>
+
+                        <a href="Protocols/SurroundingTripsInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">SurroundingTripsInteractorObserver</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SurroundingUsersInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/SurroundingUsersInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SurroundingUsersInteractorObserver">SurroundingUsersInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol that can be implemented to get notified when surrounding users get changed (added, updated, or deleted)</p>
+
+                        <a href="Protocols/SurroundingUsersInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">SurroundingUsersInteractorObserver</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)UserInteractorObserver"></a>
+                    <a name="//apple_ref/objc/Protocol/UserInteractorObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)UserInteractorObserver">UserInteractorObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol to notify observers about different</p>
+
+                        <a href="Protocols/UserInteractorObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">UserInteractorObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)JSONOuiHopAPISerializable"></a>
+                    <a name="//apple_ref/objc/Protocol/JSONOuiHopAPISerializable" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)JSONOuiHopAPISerializable">JSONOuiHopAPISerializable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol for serializing OuiHop objects to and from JSON</p>
+
+                        <a href="Protocols/JSONOuiHopAPISerializable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">JSONOuiHopAPISerializable</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.ouihop.com" target="_blank" rel="external">OuiHop</a>. All rights reserved. (Last updated: 2018-04-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
